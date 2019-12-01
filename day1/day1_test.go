@@ -2,7 +2,7 @@ package main
 
 import "testing"
 
-func TestFuelRequied(t *testing.T) {
+func TestFuelRequired(t *testing.T) {
 	cases := []struct {
 		mass int
 		fuel int
@@ -21,7 +21,7 @@ func TestFuelRequied(t *testing.T) {
 	}
 }
 
-func TestFuelRequiedAdditional(t *testing.T) {
+func TestFuelRequiredAdditional(t *testing.T) {
 	cases := []struct {
 		mass int
 		fuel int
